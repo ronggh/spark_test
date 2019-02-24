@@ -23,6 +23,7 @@
         <module>sparkstreaming_statefulWordCount</module>
         <module>sparkstreaming_windowWordCount</module>
         <module>sparkgraphx_helloworld</module>
+        <module>sparkmllib_fpgrowth</module>
     </modules>
 
     <properties>
@@ -43,9 +44,30 @@
         <scala.version>2.11.11</scala.version>
         <hadoop.version>2.7.3</hadoop.version>
     </properties>
-
-
-
+    <dependencies>
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <!-- Logging End -->
+    </dependencies>
     <build>
         <plugins>
             <plugin>

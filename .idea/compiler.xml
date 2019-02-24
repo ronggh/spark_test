@@ -10,6 +10,8 @@
         <module name="sparkcore_partitioner" />
         <module name="sparkcore_wordcount" />
         <module name="sparkgraphx_helloworld" />
+        <module name="sparkmllib_fpgrowth" />
+        <module name="sparksql-hive" />
         <module name="sparksql_helloworld" />
         <module name="sparksql_safeMyAverage" />
         <module name="sparksql_unsafeMyAverage" />
@@ -22,5 +24,8 @@
         <module name="sparkstreaming_windowWordCount" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sparksqlhive" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

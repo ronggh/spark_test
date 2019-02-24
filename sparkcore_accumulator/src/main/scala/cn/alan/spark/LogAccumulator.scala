@@ -6,7 +6,7 @@ import scala.collection.JavaConversions._
 
 
 /**
-  * Created by wuyufei on 05/09/2017.
+  *
   */
 class LogAccumulator extends AccumulatorV2[String, java.util.Set[String]] {
 

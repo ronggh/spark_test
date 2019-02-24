@@ -58,7 +58,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.atguigu.spark.WordCount</mainClass>
+                            <mainClass>cn.alan.spark.WordCount</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -68,6 +68,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>

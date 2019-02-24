@@ -88,3 +88,440 @@
 2019-02-24 15:25:32,838   INFO --- [Thread-1]  org.apache.spark.SparkContext(line:54) : Successfully stopped SparkContext
 2019-02-24 15:25:32,839   INFO --- [Thread-1]  org.apache.spark.util.ShutdownHookManager(line:54) : Shutdown hook called
 2019-02-24 15:25:32,840   INFO --- [Thread-1]  org.apache.spark.util.ShutdownHookManager(line:54) : Deleting directory C:\Users\ronggh\AppData\Local\Temp\spark-f3a385ae-cba6-4ab3-96da-2d770a901128
+2019-02-24 16:22:11,503   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Running Spark version 2.1.1
+2019-02-24 16:22:11,935   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls to: ronggh
+2019-02-24 16:22:11,938   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls to: ronggh
+2019-02-24 16:22:11,938   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls groups to: 
+2019-02-24 16:22:11,939   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls groups to: 
+2019-02-24 16:22:11,939   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ronggh); groups with view permissions: Set(); users  with modify permissions: Set(ronggh); groups with modify permissions: Set()
+2019-02-24 16:22:13,332   INFO --- [main]  org.apache.spark.util.Utils(line:54) : Successfully started service 'sparkDriver' on port 61367.
+2019-02-24 16:22:13,354   INFO --- [main]  org.apache.spark.SparkEnv(line:54) : Registering MapOutputTracker
+2019-02-24 16:22:13,384   INFO --- [main]  org.apache.spark.SparkEnv(line:54) : Registering BlockManagerMaster
+2019-02-24 16:22:13,390   INFO --- [main]  org.apache.spark.storage.BlockManagerMasterEndpoint(line:54) : Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-02-24 16:22:13,391   INFO --- [main]  org.apache.spark.storage.BlockManagerMasterEndpoint(line:54) : BlockManagerMasterEndpoint up
+2019-02-24 16:22:13,403   INFO --- [main]  org.apache.spark.storage.DiskBlockManager(line:54) : Created local directory at C:\Users\ronggh\AppData\Local\Temp\blockmgr-91f069d9-16b9-4526-976b-69956ca1c8dd
+2019-02-24 16:22:13,424   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : MemoryStore started with capacity 901.8 MB
+2019-02-24 16:22:13,491   INFO --- [main]  org.apache.spark.SparkEnv(line:54) : Registering OutputCommitCoordinator
+2019-02-24 16:22:13,570   INFO --- [main]  org.spark_project.jetty.util.log(line:186) : Logging initialized @2992ms
+2019-02-24 16:22:13,665   INFO --- [main]  org.spark_project.jetty.server.Server(line:327) : jetty-9.2.z-SNAPSHOT
+2019-02-24 16:22:13,682   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@5cbe877d{/jobs,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,682   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@5c08c46a{/jobs/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,683   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4cf8b2dc{/jobs/job,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,683   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@708400f6{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,683   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@5829e4f4{/stages,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,683   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4218500f{/stages/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,684   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4bff64c2{/stages/stage,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,684   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@1b2c4efb{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,684   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@c35172e{/stages/pool,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,684   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@c2db68f{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,685   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@3cc41abc{/storage,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,685   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4566d049{/storage/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,685   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@61ce23ac{/storage/rdd,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,685   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@3668d4{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,685   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@1c3b9394{/environment,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,686   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@6f2cfcc2{/environment/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,686   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@7f6f61c8{/executors,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,686   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4c2cc639{/executors/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,686   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@ccb4b1b{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,687   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4097cac{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,693   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@ec2cc4{/static,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,693   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@2a5b3fee{/,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,694   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@7c1e2a2d{/api,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,694   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@333dd51e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,694   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@52d645b1{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-02-24 16:22:13,703   INFO --- [main]  org.spark_project.jetty.server.ServerConnector(line:266) : Started Spark@18c5069b{HTTP/1.1}{0.0.0.0:4040}
+2019-02-24 16:22:13,704   INFO --- [main]  org.spark_project.jetty.server.Server(line:379) : Started @3126ms
+2019-02-24 16:22:13,704   INFO --- [main]  org.apache.spark.util.Utils(line:54) : Successfully started service 'SparkUI' on port 4040.
+2019-02-24 16:22:13,707   INFO --- [main]  org.apache.spark.ui.SparkUI(line:54) : Bound SparkUI to 0.0.0.0, and started at http://192.168.154.1:4040
+2019-02-24 16:22:13,798   INFO --- [main]  org.apache.spark.executor.Executor(line:54) : Starting executor ID driver on host localhost
+2019-02-24 16:22:13,836   INFO --- [main]  org.apache.spark.util.Utils(line:54) : Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 61408.
+2019-02-24 16:22:13,837   INFO --- [main]  org.apache.spark.network.netty.NettyBlockTransferService(line:54) : Server created on 192.168.154.1:61408
+2019-02-24 16:22:13,839   INFO --- [main]  org.apache.spark.storage.BlockManager(line:54) : Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-02-24 16:22:13,841   INFO --- [main]  org.apache.spark.storage.BlockManagerMaster(line:54) : Registering BlockManager BlockManagerId(driver, 192.168.154.1, 61408, None)
+2019-02-24 16:22:13,844   INFO --- [dispatcher-event-loop-2]  org.apache.spark.storage.BlockManagerMasterEndpoint(line:54) : Registering block manager 192.168.154.1:61408 with 901.8 MB RAM, BlockManagerId(driver, 192.168.154.1, 61408, None)
+2019-02-24 16:22:13,847   INFO --- [main]  org.apache.spark.storage.BlockManagerMaster(line:54) : Registered BlockManager BlockManagerId(driver, 192.168.154.1, 61408, None)
+2019-02-24 16:22:13,848   INFO --- [main]  org.apache.spark.storage.BlockManager(line:54) : Initialized BlockManager: BlockManagerId(driver, 192.168.154.1, 61408, None)
+2019-02-24 16:22:14,013   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@6cea706c{/metrics/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:14,508   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_0 stored as values in memory (estimated size 127.1 KB, free 901.7 MB)
+2019-02-24 16:22:14,581   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_0_piece0 stored as bytes in memory (estimated size 14.3 KB, free 901.7 MB)
+2019-02-24 16:22:14,584   INFO --- [dispatcher-event-loop-4]  org.apache.spark.storage.BlockManagerInfo(line:54) : Added broadcast_0_piece0 in memory on 192.168.154.1:61408 (size: 14.3 KB, free: 901.8 MB)
+2019-02-24 16:22:14,592   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Created broadcast 0 from textFile at WordCount.scala:22
+2019-02-24 16:22:14,738   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+2019-02-24 16:22:14,738   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2019-02-24 16:22:14,739   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+2019-02-24 16:22:14,739   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+2019-02-24 16:22:14,739   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.job.id is deprecated. Instead, use mapreduce.job.id
+2019-02-24 16:22:14,835   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Starting job: saveAsTextFile at WordCount.scala:25
+2019-02-24 16:22:14,895   INFO --- [dag-scheduler-event-loop]  org.apache.hadoop.mapred.FileInputFormat(line:253) : Total input paths to process : 1
+2019-02-24 16:22:15,156   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Registering RDD 3 (map at WordCount.scala:23)
+2019-02-24 16:22:15,156   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Registering RDD 5 (sortBy at WordCount.scala:23)
+2019-02-24 16:22:15,159   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Got job 0 (saveAsTextFile at WordCount.scala:25) with 1 output partitions
+2019-02-24 16:22:15,159   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Final stage: ResultStage 2 (saveAsTextFile at WordCount.scala:25)
+2019-02-24 16:22:15,160   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Parents of final stage: List(ShuffleMapStage 1)
+2019-02-24 16:22:15,161   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Missing parents: List(ShuffleMapStage 1)
+2019-02-24 16:22:15,169   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting ShuffleMapStage 0 (MapPartitionsRDD[3] at map at WordCount.scala:23), which has no missing parents
+2019-02-24 16:22:15,200   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_1 stored as values in memory (estimated size 4.7 KB, free 901.7 MB)
+2019-02-24 16:22:15,203   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.8 KB, free 901.7 MB)
+2019-02-24 16:22:15,204   INFO --- [dispatcher-event-loop-5]  org.apache.spark.storage.BlockManagerInfo(line:54) : Added broadcast_1_piece0 in memory on 192.168.154.1:61408 (size: 2.8 KB, free: 901.8 MB)
+2019-02-24 16:22:15,204   INFO --- [dag-scheduler-event-loop]  org.apache.spark.SparkContext(line:54) : Created broadcast 1 from broadcast at DAGScheduler.scala:996
+2019-02-24 16:22:15,209   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting 2 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[3] at map at WordCount.scala:23)
+2019-02-24 16:22:15,211   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Adding task set 0.0 with 2 tasks
+2019-02-24 16:22:15,252   INFO --- [dispatcher-event-loop-6]  org.apache.spark.scheduler.TaskSetManager(line:54) : Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 5992 bytes)
+2019-02-24 16:22:15,255   INFO --- [dispatcher-event-loop-6]  org.apache.spark.scheduler.TaskSetManager(line:54) : Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 5992 bytes)
+2019-02-24 16:22:15,263   INFO --- [Executor task launch worker for task 0]  org.apache.spark.executor.Executor(line:54) : Running task 0.0 in stage 0.0 (TID 0)
+2019-02-24 16:22:15,263   INFO --- [Executor task launch worker for task 1]  org.apache.spark.executor.Executor(line:54) : Running task 1.0 in stage 0.0 (TID 1)
+2019-02-24 16:22:15,311   INFO --- [Executor task launch worker for task 0]  org.apache.spark.rdd.HadoopRDD(line:54) : Input split: file:/f:/MyProject/spark_test/in_data/readme.txt:0+1904
+2019-02-24 16:22:15,311   INFO --- [Executor task launch worker for task 1]  org.apache.spark.rdd.HadoopRDD(line:54) : Input split: file:/f:/MyProject/spark_test/in_data/readme.txt:1904+1904
+2019-02-24 16:22:15,464   INFO --- [Executor task launch worker for task 0]  org.apache.spark.executor.Executor(line:54) : Finished task 0.0 in stage 0.0 (TID 0). 1745 bytes result sent to driver
+2019-02-24 16:22:15,464   INFO --- [Executor task launch worker for task 1]  org.apache.spark.executor.Executor(line:54) : Finished task 1.0 in stage 0.0 (TID 1). 1655 bytes result sent to driver
+2019-02-24 16:22:15,478   INFO --- [task-result-getter-1]  org.apache.spark.scheduler.TaskSetManager(line:54) : Finished task 1.0 in stage 0.0 (TID 1) in 221 ms on localhost (executor driver) (1/2)
+2019-02-24 16:22:15,479   INFO --- [task-result-getter-0]  org.apache.spark.scheduler.TaskSetManager(line:54) : Finished task 0.0 in stage 0.0 (TID 0) in 246 ms on localhost (executor driver) (2/2)
+2019-02-24 16:22:15,480   INFO --- [task-result-getter-0]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2019-02-24 16:22:15,485   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : ShuffleMapStage 0 (map at WordCount.scala:23) finished in 0.264 s
+2019-02-24 16:22:15,486   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : looking for newly runnable stages
+2019-02-24 16:22:15,486   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : running: Set()
+2019-02-24 16:22:15,487   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : waiting: Set(ShuffleMapStage 1, ResultStage 2)
+2019-02-24 16:22:15,487   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : failed: Set()
+2019-02-24 16:22:15,493   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting ShuffleMapStage 1 (MapPartitionsRDD[5] at sortBy at WordCount.scala:23), which has no missing parents
+2019-02-24 16:22:15,501   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_2 stored as values in memory (estimated size 4.2 KB, free 901.7 MB)
+2019-02-24 16:22:15,506   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_2_piece0 stored as bytes in memory (estimated size 2.4 KB, free 901.6 MB)
+2019-02-24 16:22:15,509   INFO --- [dispatcher-event-loop-3]  org.apache.spark.storage.BlockManagerInfo(line:54) : Added broadcast_2_piece0 in memory on 192.168.154.1:61408 (size: 2.4 KB, free: 901.8 MB)
+2019-02-24 16:22:15,510   INFO --- [dag-scheduler-event-loop]  org.apache.spark.SparkContext(line:54) : Created broadcast 2 from broadcast at DAGScheduler.scala:996
+2019-02-24 16:22:15,510   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting 1 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[5] at sortBy at WordCount.scala:23)
+2019-02-24 16:22:15,510   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Adding task set 1.0 with 1 tasks
+2019-02-24 16:22:15,514   INFO --- [dispatcher-event-loop-4]  org.apache.spark.scheduler.TaskSetManager(line:54) : Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, ANY, 5746 bytes)
+2019-02-24 16:22:15,515   INFO --- [Executor task launch worker for task 2]  org.apache.spark.executor.Executor(line:54) : Running task 0.0 in stage 1.0 (TID 2)
+2019-02-24 16:22:15,530   INFO --- [Executor task launch worker for task 2]  org.apache.spark.storage.ShuffleBlockFetcherIterator(line:54) : Getting 2 non-empty blocks out of 2 blocks
+2019-02-24 16:22:15,531   INFO --- [Executor task launch worker for task 2]  org.apache.spark.storage.ShuffleBlockFetcherIterator(line:54) : Started 0 remote fetches in 4 ms
+2019-02-24 16:22:15,603   INFO --- [Executor task launch worker for task 2]  org.apache.spark.executor.Executor(line:54) : Finished task 0.0 in stage 1.0 (TID 2). 2050 bytes result sent to driver
+2019-02-24 16:22:15,605   INFO --- [task-result-getter-2]  org.apache.spark.scheduler.TaskSetManager(line:54) : Finished task 0.0 in stage 1.0 (TID 2) in 92 ms on localhost (executor driver) (1/1)
+2019-02-24 16:22:15,605   INFO --- [task-result-getter-2]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2019-02-24 16:22:15,605   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : ShuffleMapStage 1 (sortBy at WordCount.scala:23) finished in 0.093 s
+2019-02-24 16:22:15,605   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : looking for newly runnable stages
+2019-02-24 16:22:15,605   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : running: Set()
+2019-02-24 16:22:15,605   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : waiting: Set(ResultStage 2)
+2019-02-24 16:22:15,605   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : failed: Set()
+2019-02-24 16:22:15,606   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting ResultStage 2 (MapPartitionsRDD[8] at saveAsTextFile at WordCount.scala:25), which has no missing parents
+2019-02-24 16:22:15,614   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_3 stored as values in memory (estimated size 49.4 KB, free 901.6 MB)
+2019-02-24 16:22:15,617   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_3_piece0 stored as bytes in memory (estimated size 17.8 KB, free 901.6 MB)
+2019-02-24 16:22:15,618   INFO --- [dispatcher-event-loop-0]  org.apache.spark.storage.BlockManagerInfo(line:54) : Added broadcast_3_piece0 in memory on 192.168.154.1:61408 (size: 17.8 KB, free: 901.8 MB)
+2019-02-24 16:22:15,619   INFO --- [dag-scheduler-event-loop]  org.apache.spark.SparkContext(line:54) : Created broadcast 3 from broadcast at DAGScheduler.scala:996
+2019-02-24 16:22:15,620   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[8] at saveAsTextFile at WordCount.scala:25)
+2019-02-24 16:22:15,620   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Adding task set 2.0 with 1 tasks
+2019-02-24 16:22:15,623   INFO --- [dispatcher-event-loop-7]  org.apache.spark.scheduler.TaskSetManager(line:54) : Starting task 0.0 in stage 2.0 (TID 3, localhost, executor driver, partition 0, ANY, 5757 bytes)
+2019-02-24 16:22:15,623   INFO --- [Executor task launch worker for task 3]  org.apache.spark.executor.Executor(line:54) : Running task 0.0 in stage 2.0 (TID 3)
+2019-02-24 16:22:15,637   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2019-02-24 16:22:15,637   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.output.key.class is deprecated. Instead, use mapreduce.job.output.key.class
+2019-02-24 16:22:15,647   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.output.value.class is deprecated. Instead, use mapreduce.job.output.value.class
+2019-02-24 16:22:15,649   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.working.dir is deprecated. Instead, use mapreduce.job.working.dir
+2019-02-24 16:22:15,650   INFO --- [Executor task launch worker for task 3]  org.apache.spark.storage.ShuffleBlockFetcherIterator(line:54) : Getting 1 non-empty blocks out of 1 blocks
+2019-02-24 16:22:15,650   INFO --- [Executor task launch worker for task 3]  org.apache.spark.storage.ShuffleBlockFetcherIterator(line:54) : Started 0 remote fetches in 1 ms
+2019-02-24 16:22:15,844   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter(line:439) : Saved output of task 'attempt_20190224162214_0002_m_000000_3' to file:/f:/MyProject/spark_test/out_data/word_count/_temporary/0/task_20190224162214_0002_m_000000
+2019-02-24 16:22:15,846   INFO --- [Executor task launch worker for task 3]  org.apache.spark.mapred.SparkHadoopMapRedUtil(line:54) : attempt_20190224162214_0002_m_000000_3: Committed
+2019-02-24 16:22:15,850   INFO --- [Executor task launch worker for task 3]  org.apache.spark.executor.Executor(line:54) : Finished task 0.0 in stage 2.0 (TID 3). 1809 bytes result sent to driver
+2019-02-24 16:22:15,853   INFO --- [task-result-getter-3]  org.apache.spark.scheduler.TaskSetManager(line:54) : Finished task 0.0 in stage 2.0 (TID 3) in 231 ms on localhost (executor driver) (1/1)
+2019-02-24 16:22:15,853   INFO --- [task-result-getter-3]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2019-02-24 16:22:15,854   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : ResultStage 2 (saveAsTextFile at WordCount.scala:25) finished in 0.232 s
+2019-02-24 16:22:15,860   INFO --- [main]  org.apache.spark.scheduler.DAGScheduler(line:54) : Job 0 finished: saveAsTextFile at WordCount.scala:25, took 1.024805 s
+2019-02-24 16:22:15,895   INFO --- [main]  cn.alan.spark.WordCount$(line:27) : complete!
+2019-02-24 16:22:15,902   INFO --- [main]  org.spark_project.jetty.server.ServerConnector(line:306) : Stopped Spark@18c5069b{HTTP/1.1}{0.0.0.0:4040}
+2019-02-24 16:22:15,904   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@52d645b1{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,904   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@333dd51e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,904   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@7c1e2a2d{/api,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,904   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@2a5b3fee{/,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,904   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@ec2cc4{/static,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,905   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4097cac{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,905   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@ccb4b1b{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,905   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4c2cc639{/executors/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,905   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@7f6f61c8{/executors,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,905   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@6f2cfcc2{/environment/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,905   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@1c3b9394{/environment,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,905   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@3668d4{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,906   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@61ce23ac{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,906   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4566d049{/storage/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,906   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@3cc41abc{/storage,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,906   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@c2db68f{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,906   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@c35172e{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,907   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@1b2c4efb{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,907   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4bff64c2{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,907   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4218500f{/stages/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,907   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@5829e4f4{/stages,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,907   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@708400f6{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,907   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4cf8b2dc{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,907   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@5c08c46a{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,908   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@5cbe877d{/jobs,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:15,909   INFO --- [main]  org.apache.spark.ui.SparkUI(line:54) : Stopped Spark web UI at http://192.168.154.1:4040
+2019-02-24 16:22:15,919   INFO --- [dispatcher-event-loop-6]  org.apache.spark.MapOutputTrackerMasterEndpoint(line:54) : MapOutputTrackerMasterEndpoint stopped!
+2019-02-24 16:22:15,976   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : MemoryStore cleared
+2019-02-24 16:22:15,976   INFO --- [main]  org.apache.spark.storage.BlockManager(line:54) : BlockManager stopped
+2019-02-24 16:22:15,980   INFO --- [main]  org.apache.spark.storage.BlockManagerMaster(line:54) : BlockManagerMaster stopped
+2019-02-24 16:22:15,982   INFO --- [dispatcher-event-loop-3]  org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint(line:54) : OutputCommitCoordinator stopped!
+2019-02-24 16:22:15,988   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Successfully stopped SparkContext
+2019-02-24 16:22:15,991   INFO --- [Thread-1]  org.apache.spark.util.ShutdownHookManager(line:54) : Shutdown hook called
+2019-02-24 16:22:15,992   INFO --- [Thread-1]  org.apache.spark.util.ShutdownHookManager(line:54) : Deleting directory C:\Users\ronggh\AppData\Local\Temp\spark-8f80fb40-24a6-49a7-8043-caa7cbe13740
+2019-02-24 16:22:32,526   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Running Spark version 2.1.1
+2019-02-24 16:22:32,847   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls to: ronggh
+2019-02-24 16:22:32,849   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls to: ronggh
+2019-02-24 16:22:32,850   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls groups to: 
+2019-02-24 16:22:32,850   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls groups to: 
+2019-02-24 16:22:32,851   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ronggh); groups with view permissions: Set(); users  with modify permissions: Set(ronggh); groups with modify permissions: Set()
+2019-02-24 16:22:34,229   INFO --- [main]  org.apache.spark.util.Utils(line:54) : Successfully started service 'sparkDriver' on port 61447.
+2019-02-24 16:22:34,249   INFO --- [main]  org.apache.spark.SparkEnv(line:54) : Registering MapOutputTracker
+2019-02-24 16:22:34,264   INFO --- [main]  org.apache.spark.SparkEnv(line:54) : Registering BlockManagerMaster
+2019-02-24 16:22:34,267   INFO --- [main]  org.apache.spark.storage.BlockManagerMasterEndpoint(line:54) : Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-02-24 16:22:34,267   INFO --- [main]  org.apache.spark.storage.BlockManagerMasterEndpoint(line:54) : BlockManagerMasterEndpoint up
+2019-02-24 16:22:34,278   INFO --- [main]  org.apache.spark.storage.DiskBlockManager(line:54) : Created local directory at C:\Users\ronggh\AppData\Local\Temp\blockmgr-14ff06ba-2a75-4c56-84cc-1ccd2b5910cb
+2019-02-24 16:22:34,292   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : MemoryStore started with capacity 901.8 MB
+2019-02-24 16:22:34,352   INFO --- [main]  org.apache.spark.SparkEnv(line:54) : Registering OutputCommitCoordinator
+2019-02-24 16:22:34,412   INFO --- [main]  org.spark_project.jetty.util.log(line:186) : Logging initialized @2739ms
+2019-02-24 16:22:34,483   INFO --- [main]  org.spark_project.jetty.server.Server(line:327) : jetty-9.2.z-SNAPSHOT
+2019-02-24 16:22:34,498   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@5cbe877d{/jobs,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,498   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@5c08c46a{/jobs/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,498   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4cf8b2dc{/jobs/job,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,499   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@708400f6{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,499   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@5829e4f4{/stages,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,499   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4218500f{/stages/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,499   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4bff64c2{/stages/stage,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,500   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@1b2c4efb{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,500   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@c35172e{/stages/pool,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,500   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@c2db68f{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,500   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@3cc41abc{/storage,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,501   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4566d049{/storage/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,501   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@61ce23ac{/storage/rdd,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,501   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@3668d4{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,502   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@1c3b9394{/environment,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,502   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@6f2cfcc2{/environment/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,502   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@7f6f61c8{/executors,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,503   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4c2cc639{/executors/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,503   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@ccb4b1b{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,503   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4097cac{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,509   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@ec2cc4{/static,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,509   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@2a5b3fee{/,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,510   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@7c1e2a2d{/api,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,510   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@333dd51e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,511   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@52d645b1{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-02-24 16:22:34,520   INFO --- [main]  org.spark_project.jetty.server.ServerConnector(line:266) : Started Spark@18c5069b{HTTP/1.1}{0.0.0.0:4040}
+2019-02-24 16:22:34,520   INFO --- [main]  org.spark_project.jetty.server.Server(line:379) : Started @2848ms
+2019-02-24 16:22:34,520   INFO --- [main]  org.apache.spark.util.Utils(line:54) : Successfully started service 'SparkUI' on port 4040.
+2019-02-24 16:22:34,523   INFO --- [main]  org.apache.spark.ui.SparkUI(line:54) : Bound SparkUI to 0.0.0.0, and started at http://192.168.154.1:4040
+2019-02-24 16:22:34,603   INFO --- [main]  org.apache.spark.executor.Executor(line:54) : Starting executor ID driver on host localhost
+2019-02-24 16:22:34,640   INFO --- [main]  org.apache.spark.util.Utils(line:54) : Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 61488.
+2019-02-24 16:22:34,641   INFO --- [main]  org.apache.spark.network.netty.NettyBlockTransferService(line:54) : Server created on 192.168.154.1:61488
+2019-02-24 16:22:34,642   INFO --- [main]  org.apache.spark.storage.BlockManager(line:54) : Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-02-24 16:22:34,644   INFO --- [main]  org.apache.spark.storage.BlockManagerMaster(line:54) : Registering BlockManager BlockManagerId(driver, 192.168.154.1, 61488, None)
+2019-02-24 16:22:34,646   INFO --- [dispatcher-event-loop-3]  org.apache.spark.storage.BlockManagerMasterEndpoint(line:54) : Registering block manager 192.168.154.1:61488 with 901.8 MB RAM, BlockManagerId(driver, 192.168.154.1, 61488, None)
+2019-02-24 16:22:34,648   INFO --- [main]  org.apache.spark.storage.BlockManagerMaster(line:54) : Registered BlockManager BlockManagerId(driver, 192.168.154.1, 61488, None)
+2019-02-24 16:22:34,649   INFO --- [main]  org.apache.spark.storage.BlockManager(line:54) : Initialized BlockManager: BlockManagerId(driver, 192.168.154.1, 61488, None)
+2019-02-24 16:22:34,786   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@6cea706c{/metrics/json,null,AVAILABLE,@Spark}
+2019-02-24 16:22:35,185   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_0 stored as values in memory (estimated size 127.1 KB, free 901.7 MB)
+2019-02-24 16:22:35,254   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_0_piece0 stored as bytes in memory (estimated size 14.3 KB, free 901.7 MB)
+2019-02-24 16:22:35,258   INFO --- [dispatcher-event-loop-1]  org.apache.spark.storage.BlockManagerInfo(line:54) : Added broadcast_0_piece0 in memory on 192.168.154.1:61488 (size: 14.3 KB, free: 901.8 MB)
+2019-02-24 16:22:35,262   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Created broadcast 0 from textFile at WordCount.scala:22
+2019-02-24 16:22:35,390   INFO --- [Thread-1]  org.apache.spark.SparkContext(line:54) : Invoking stop() from shutdown hook
+2019-02-24 16:22:35,403   INFO --- [Thread-1]  org.spark_project.jetty.server.ServerConnector(line:306) : Stopped Spark@18c5069b{HTTP/1.1}{0.0.0.0:4040}
+2019-02-24 16:22:35,406   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@52d645b1{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,407   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@333dd51e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,407   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@7c1e2a2d{/api,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,407   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@2a5b3fee{/,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,408   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@ec2cc4{/static,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,409   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4097cac{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,409   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@ccb4b1b{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,409   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4c2cc639{/executors/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,409   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@7f6f61c8{/executors,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,410   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@6f2cfcc2{/environment/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,410   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@1c3b9394{/environment,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,410   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@3668d4{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,411   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@61ce23ac{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,411   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4566d049{/storage/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,411   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@3cc41abc{/storage,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,411   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@c2db68f{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,412   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@c35172e{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,412   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@1b2c4efb{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,412   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4bff64c2{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,412   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4218500f{/stages/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,413   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@5829e4f4{/stages,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,413   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@708400f6{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,413   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4cf8b2dc{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,413   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@5c08c46a{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,413   INFO --- [Thread-1]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@5cbe877d{/jobs,null,UNAVAILABLE,@Spark}
+2019-02-24 16:22:35,420   INFO --- [Thread-1]  org.apache.spark.ui.SparkUI(line:54) : Stopped Spark web UI at http://192.168.154.1:4040
+2019-02-24 16:22:35,427   INFO --- [dispatcher-event-loop-7]  org.apache.spark.storage.BlockManagerInfo(line:54) : Removed broadcast_0_piece0 on 192.168.154.1:61488 in memory (size: 14.3 KB, free: 901.8 MB)
+2019-02-24 16:22:35,437   INFO --- [dispatcher-event-loop-3]  org.apache.spark.MapOutputTrackerMasterEndpoint(line:54) : MapOutputTrackerMasterEndpoint stopped!
+2019-02-24 16:22:35,453   INFO --- [Thread-1]  org.apache.spark.storage.memory.MemoryStore(line:54) : MemoryStore cleared
+2019-02-24 16:22:35,453   INFO --- [Thread-1]  org.apache.spark.storage.BlockManager(line:54) : BlockManager stopped
+2019-02-24 16:22:35,454   INFO --- [Thread-1]  org.apache.spark.storage.BlockManagerMaster(line:54) : BlockManagerMaster stopped
+2019-02-24 16:22:35,458   INFO --- [dispatcher-event-loop-7]  org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint(line:54) : OutputCommitCoordinator stopped!
+2019-02-24 16:22:35,462   INFO --- [Thread-1]  org.apache.spark.SparkContext(line:54) : Successfully stopped SparkContext
+2019-02-24 16:22:35,462   INFO --- [Thread-1]  org.apache.spark.util.ShutdownHookManager(line:54) : Shutdown hook called
+2019-02-24 16:22:35,463   INFO --- [Thread-1]  org.apache.spark.util.ShutdownHookManager(line:54) : Deleting directory C:\Users\ronggh\AppData\Local\Temp\spark-fb33fce8-f5e1-40c4-8333-ec2568137403
+2019-02-24 16:23:02,802   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Running Spark version 2.1.1
+2019-02-24 16:23:03,129   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls to: ronggh
+2019-02-24 16:23:03,131   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls to: ronggh
+2019-02-24 16:23:03,132   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls groups to: 
+2019-02-24 16:23:03,132   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls groups to: 
+2019-02-24 16:23:03,133   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ronggh); groups with view permissions: Set(); users  with modify permissions: Set(ronggh); groups with modify permissions: Set()
+2019-02-24 16:23:04,470   INFO --- [main]  org.apache.spark.util.Utils(line:54) : Successfully started service 'sparkDriver' on port 61526.
+2019-02-24 16:23:04,485   INFO --- [main]  org.apache.spark.SparkEnv(line:54) : Registering MapOutputTracker
+2019-02-24 16:23:04,506   INFO --- [main]  org.apache.spark.SparkEnv(line:54) : Registering BlockManagerMaster
+2019-02-24 16:23:04,508   INFO --- [main]  org.apache.spark.storage.BlockManagerMasterEndpoint(line:54) : Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-02-24 16:23:04,508   INFO --- [main]  org.apache.spark.storage.BlockManagerMasterEndpoint(line:54) : BlockManagerMasterEndpoint up
+2019-02-24 16:23:04,520   INFO --- [main]  org.apache.spark.storage.DiskBlockManager(line:54) : Created local directory at C:\Users\ronggh\AppData\Local\Temp\blockmgr-9bfb40a9-3f40-4c54-a332-25e13a697dcf
+2019-02-24 16:23:04,535   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : MemoryStore started with capacity 901.8 MB
+2019-02-24 16:23:04,604   INFO --- [main]  org.apache.spark.SparkEnv(line:54) : Registering OutputCommitCoordinator
+2019-02-24 16:23:04,670   INFO --- [main]  org.spark_project.jetty.util.log(line:186) : Logging initialized @2725ms
+2019-02-24 16:23:04,745   INFO --- [main]  org.spark_project.jetty.server.Server(line:327) : jetty-9.2.z-SNAPSHOT
+2019-02-24 16:23:04,759   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@7e8dcdaa{/jobs,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,759   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@681a8b4e{/jobs/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,760   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@5cbe877d{/jobs/job,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,760   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@5c08c46a{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,760   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4cf8b2dc{/stages,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,760   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@708400f6{/stages/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,761   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@5829e4f4{/stages/stage,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,761   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4218500f{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,761   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4bff64c2{/stages/pool,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,761   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@1b2c4efb{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,761   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@c35172e{/storage,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,762   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@c2db68f{/storage/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,762   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@3cc41abc{/storage/rdd,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,762   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4566d049{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,762   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@61ce23ac{/environment,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,762   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@3668d4{/environment/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,763   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@1c3b9394{/executors,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,763   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@6f2cfcc2{/executors/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,763   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@7f6f61c8{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,764   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4c2cc639{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,768   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@ccb4b1b{/static,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,768   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@4097cac{/,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,769   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@ec2cc4{/api,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,769   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@2a5b3fee{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,769   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@7c1e2a2d{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-02-24 16:23:04,778   INFO --- [main]  org.spark_project.jetty.server.ServerConnector(line:266) : Started Spark@3f6db3fb{HTTP/1.1}{0.0.0.0:4040}
+2019-02-24 16:23:04,778   INFO --- [main]  org.spark_project.jetty.server.Server(line:379) : Started @2834ms
+2019-02-24 16:23:04,779   INFO --- [main]  org.apache.spark.util.Utils(line:54) : Successfully started service 'SparkUI' on port 4040.
+2019-02-24 16:23:04,781   INFO --- [main]  org.apache.spark.ui.SparkUI(line:54) : Bound SparkUI to 0.0.0.0, and started at http://192.168.154.1:4040
+2019-02-24 16:23:04,871   INFO --- [main]  org.apache.spark.executor.Executor(line:54) : Starting executor ID driver on host localhost
+2019-02-24 16:23:04,929   INFO --- [main]  org.apache.spark.util.Utils(line:54) : Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 61567.
+2019-02-24 16:23:04,930   INFO --- [main]  org.apache.spark.network.netty.NettyBlockTransferService(line:54) : Server created on 192.168.154.1:61567
+2019-02-24 16:23:04,932   INFO --- [main]  org.apache.spark.storage.BlockManager(line:54) : Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-02-24 16:23:04,934   INFO --- [main]  org.apache.spark.storage.BlockManagerMaster(line:54) : Registering BlockManager BlockManagerId(driver, 192.168.154.1, 61567, None)
+2019-02-24 16:23:04,938   INFO --- [dispatcher-event-loop-2]  org.apache.spark.storage.BlockManagerMasterEndpoint(line:54) : Registering block manager 192.168.154.1:61567 with 901.8 MB RAM, BlockManagerId(driver, 192.168.154.1, 61567, None)
+2019-02-24 16:23:04,941   INFO --- [main]  org.apache.spark.storage.BlockManagerMaster(line:54) : Registered BlockManager BlockManagerId(driver, 192.168.154.1, 61567, None)
+2019-02-24 16:23:04,942   INFO --- [main]  org.apache.spark.storage.BlockManager(line:54) : Initialized BlockManager: BlockManagerId(driver, 192.168.154.1, 61567, None)
+2019-02-24 16:23:05,097   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:744) : Started o.s.j.s.ServletContextHandler@1b11ef33{/metrics/json,null,AVAILABLE,@Spark}
+2019-02-24 16:23:05,471   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_0 stored as values in memory (estimated size 127.1 KB, free 901.7 MB)
+2019-02-24 16:23:05,542   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_0_piece0 stored as bytes in memory (estimated size 14.3 KB, free 901.7 MB)
+2019-02-24 16:23:05,546   INFO --- [dispatcher-event-loop-4]  org.apache.spark.storage.BlockManagerInfo(line:54) : Added broadcast_0_piece0 in memory on 192.168.154.1:61567 (size: 14.3 KB, free: 901.8 MB)
+2019-02-24 16:23:05,551   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Created broadcast 0 from textFile at WordCount.scala:22
+2019-02-24 16:23:05,675   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+2019-02-24 16:23:05,675   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2019-02-24 16:23:05,676   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+2019-02-24 16:23:05,676   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+2019-02-24 16:23:05,676   INFO --- [main]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.job.id is deprecated. Instead, use mapreduce.job.id
+2019-02-24 16:23:05,771   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Starting job: saveAsTextFile at WordCount.scala:25
+2019-02-24 16:23:05,806   INFO --- [dag-scheduler-event-loop]  org.apache.hadoop.mapred.FileInputFormat(line:253) : Total input paths to process : 1
+2019-02-24 16:23:06,007   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Registering RDD 3 (map at WordCount.scala:23)
+2019-02-24 16:23:06,007   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Registering RDD 5 (sortBy at WordCount.scala:23)
+2019-02-24 16:23:06,009   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Got job 0 (saveAsTextFile at WordCount.scala:25) with 1 output partitions
+2019-02-24 16:23:06,009   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Final stage: ResultStage 2 (saveAsTextFile at WordCount.scala:25)
+2019-02-24 16:23:06,010   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Parents of final stage: List(ShuffleMapStage 1)
+2019-02-24 16:23:06,011   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Missing parents: List(ShuffleMapStage 1)
+2019-02-24 16:23:06,017   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting ShuffleMapStage 0 (MapPartitionsRDD[3] at map at WordCount.scala:23), which has no missing parents
+2019-02-24 16:23:06,037   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_1 stored as values in memory (estimated size 4.7 KB, free 901.7 MB)
+2019-02-24 16:23:06,040   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.8 KB, free 901.7 MB)
+2019-02-24 16:23:06,040   INFO --- [dispatcher-event-loop-5]  org.apache.spark.storage.BlockManagerInfo(line:54) : Added broadcast_1_piece0 in memory on 192.168.154.1:61567 (size: 2.8 KB, free: 901.8 MB)
+2019-02-24 16:23:06,041   INFO --- [dag-scheduler-event-loop]  org.apache.spark.SparkContext(line:54) : Created broadcast 1 from broadcast at DAGScheduler.scala:996
+2019-02-24 16:23:06,044   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting 2 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[3] at map at WordCount.scala:23)
+2019-02-24 16:23:06,045   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Adding task set 0.0 with 2 tasks
+2019-02-24 16:23:06,076   INFO --- [dispatcher-event-loop-6]  org.apache.spark.scheduler.TaskSetManager(line:54) : Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 5992 bytes)
+2019-02-24 16:23:06,078   INFO --- [dispatcher-event-loop-6]  org.apache.spark.scheduler.TaskSetManager(line:54) : Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 5992 bytes)
+2019-02-24 16:23:06,084   INFO --- [Executor task launch worker for task 0]  org.apache.spark.executor.Executor(line:54) : Running task 0.0 in stage 0.0 (TID 0)
+2019-02-24 16:23:06,084   INFO --- [Executor task launch worker for task 1]  org.apache.spark.executor.Executor(line:54) : Running task 1.0 in stage 0.0 (TID 1)
+2019-02-24 16:23:06,116   INFO --- [Executor task launch worker for task 1]  org.apache.spark.rdd.HadoopRDD(line:54) : Input split: file:/f:/MyProject/spark_test/in_data/readme.txt:1904+1904
+2019-02-24 16:23:06,116   INFO --- [Executor task launch worker for task 0]  org.apache.spark.rdd.HadoopRDD(line:54) : Input split: file:/f:/MyProject/spark_test/in_data/readme.txt:0+1904
+2019-02-24 16:23:06,236   INFO --- [Executor task launch worker for task 0]  org.apache.spark.executor.Executor(line:54) : Finished task 0.0 in stage 0.0 (TID 0). 1655 bytes result sent to driver
+2019-02-24 16:23:06,236   INFO --- [Executor task launch worker for task 1]  org.apache.spark.executor.Executor(line:54) : Finished task 1.0 in stage 0.0 (TID 1). 1655 bytes result sent to driver
+2019-02-24 16:23:06,248   INFO --- [task-result-getter-1]  org.apache.spark.scheduler.TaskSetManager(line:54) : Finished task 1.0 in stage 0.0 (TID 1) in 168 ms on localhost (executor driver) (1/2)
+2019-02-24 16:23:06,248   INFO --- [task-result-getter-0]  org.apache.spark.scheduler.TaskSetManager(line:54) : Finished task 0.0 in stage 0.0 (TID 0) in 187 ms on localhost (executor driver) (2/2)
+2019-02-24 16:23:06,250   INFO --- [task-result-getter-0]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2019-02-24 16:23:06,253   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : ShuffleMapStage 0 (map at WordCount.scala:23) finished in 0.201 s
+2019-02-24 16:23:06,254   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : looking for newly runnable stages
+2019-02-24 16:23:06,255   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : running: Set()
+2019-02-24 16:23:06,255   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : waiting: Set(ShuffleMapStage 1, ResultStage 2)
+2019-02-24 16:23:06,256   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : failed: Set()
+2019-02-24 16:23:06,259   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting ShuffleMapStage 1 (MapPartitionsRDD[5] at sortBy at WordCount.scala:23), which has no missing parents
+2019-02-24 16:23:06,266   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_2 stored as values in memory (estimated size 4.2 KB, free 901.7 MB)
+2019-02-24 16:23:06,270   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_2_piece0 stored as bytes in memory (estimated size 2.4 KB, free 901.6 MB)
+2019-02-24 16:23:06,273   INFO --- [dispatcher-event-loop-3]  org.apache.spark.storage.BlockManagerInfo(line:54) : Added broadcast_2_piece0 in memory on 192.168.154.1:61567 (size: 2.4 KB, free: 901.8 MB)
+2019-02-24 16:23:06,274   INFO --- [dag-scheduler-event-loop]  org.apache.spark.SparkContext(line:54) : Created broadcast 2 from broadcast at DAGScheduler.scala:996
+2019-02-24 16:23:06,274   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting 1 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[5] at sortBy at WordCount.scala:23)
+2019-02-24 16:23:06,274   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Adding task set 1.0 with 1 tasks
+2019-02-24 16:23:06,278   INFO --- [dispatcher-event-loop-4]  org.apache.spark.scheduler.TaskSetManager(line:54) : Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, ANY, 5746 bytes)
+2019-02-24 16:23:06,279   INFO --- [Executor task launch worker for task 2]  org.apache.spark.executor.Executor(line:54) : Running task 0.0 in stage 1.0 (TID 2)
+2019-02-24 16:23:06,292   INFO --- [Executor task launch worker for task 2]  org.apache.spark.storage.ShuffleBlockFetcherIterator(line:54) : Getting 2 non-empty blocks out of 2 blocks
+2019-02-24 16:23:06,293   INFO --- [Executor task launch worker for task 2]  org.apache.spark.storage.ShuffleBlockFetcherIterator(line:54) : Started 0 remote fetches in 4 ms
+2019-02-24 16:23:06,354   INFO --- [Executor task launch worker for task 2]  org.apache.spark.executor.Executor(line:54) : Finished task 0.0 in stage 1.0 (TID 2). 1960 bytes result sent to driver
+2019-02-24 16:23:06,383   INFO --- [task-result-getter-2]  org.apache.spark.scheduler.TaskSetManager(line:54) : Finished task 0.0 in stage 1.0 (TID 2) in 105 ms on localhost (executor driver) (1/1)
+2019-02-24 16:23:06,383   INFO --- [task-result-getter-2]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2019-02-24 16:23:06,383   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : ShuffleMapStage 1 (sortBy at WordCount.scala:23) finished in 0.106 s
+2019-02-24 16:23:06,383   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : looking for newly runnable stages
+2019-02-24 16:23:06,383   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : running: Set()
+2019-02-24 16:23:06,383   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : waiting: Set(ResultStage 2)
+2019-02-24 16:23:06,383   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : failed: Set()
+2019-02-24 16:23:06,384   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting ResultStage 2 (MapPartitionsRDD[8] at saveAsTextFile at WordCount.scala:25), which has no missing parents
+2019-02-24 16:23:06,391   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_3 stored as values in memory (estimated size 49.4 KB, free 901.6 MB)
+2019-02-24 16:23:06,395   INFO --- [dag-scheduler-event-loop]  org.apache.spark.storage.memory.MemoryStore(line:54) : Block broadcast_3_piece0 stored as bytes in memory (estimated size 17.8 KB, free 901.6 MB)
+2019-02-24 16:23:06,395   INFO --- [dispatcher-event-loop-0]  org.apache.spark.storage.BlockManagerInfo(line:54) : Added broadcast_3_piece0 in memory on 192.168.154.1:61567 (size: 17.8 KB, free: 901.8 MB)
+2019-02-24 16:23:06,396   INFO --- [dag-scheduler-event-loop]  org.apache.spark.SparkContext(line:54) : Created broadcast 3 from broadcast at DAGScheduler.scala:996
+2019-02-24 16:23:06,398   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[8] at saveAsTextFile at WordCount.scala:25)
+2019-02-24 16:23:06,398   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Adding task set 2.0 with 1 tasks
+2019-02-24 16:23:06,400   INFO --- [dispatcher-event-loop-7]  org.apache.spark.scheduler.TaskSetManager(line:54) : Starting task 0.0 in stage 2.0 (TID 3, localhost, executor driver, partition 0, ANY, 5757 bytes)
+2019-02-24 16:23:06,401   INFO --- [Executor task launch worker for task 3]  org.apache.spark.executor.Executor(line:54) : Running task 0.0 in stage 2.0 (TID 3)
+2019-02-24 16:23:06,415   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2019-02-24 16:23:06,415   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.output.key.class is deprecated. Instead, use mapreduce.job.output.key.class
+2019-02-24 16:23:06,416   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.output.value.class is deprecated. Instead, use mapreduce.job.output.value.class
+2019-02-24 16:23:06,418   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.conf.Configuration.deprecation(line:840) : mapred.working.dir is deprecated. Instead, use mapreduce.job.working.dir
+2019-02-24 16:23:06,419   INFO --- [Executor task launch worker for task 3]  org.apache.spark.storage.ShuffleBlockFetcherIterator(line:54) : Getting 1 non-empty blocks out of 1 blocks
+2019-02-24 16:23:06,420   INFO --- [Executor task launch worker for task 3]  org.apache.spark.storage.ShuffleBlockFetcherIterator(line:54) : Started 0 remote fetches in 1 ms
+2019-02-24 16:23:06,490   INFO --- [Executor task launch worker for task 3]  org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter(line:439) : Saved output of task 'attempt_20190224162305_0002_m_000000_3' to file:/f:/MyProject/spark_test/out_data/word_count/_temporary/0/task_20190224162305_0002_m_000000
+2019-02-24 16:23:06,491   INFO --- [Executor task launch worker for task 3]  org.apache.spark.mapred.SparkHadoopMapRedUtil(line:54) : attempt_20190224162305_0002_m_000000_3: Committed
+2019-02-24 16:23:06,493   INFO --- [Executor task launch worker for task 3]  org.apache.spark.executor.Executor(line:54) : Finished task 0.0 in stage 2.0 (TID 3). 1722 bytes result sent to driver
+2019-02-24 16:23:06,494   INFO --- [task-result-getter-3]  org.apache.spark.scheduler.TaskSetManager(line:54) : Finished task 0.0 in stage 2.0 (TID 3) in 95 ms on localhost (executor driver) (1/1)
+2019-02-24 16:23:06,495   INFO --- [task-result-getter-3]  org.apache.spark.scheduler.TaskSchedulerImpl(line:54) : Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2019-02-24 16:23:06,495   INFO --- [dag-scheduler-event-loop]  org.apache.spark.scheduler.DAGScheduler(line:54) : ResultStage 2 (saveAsTextFile at WordCount.scala:25) finished in 0.096 s
+2019-02-24 16:23:06,499   INFO --- [main]  org.apache.spark.scheduler.DAGScheduler(line:54) : Job 0 finished: saveAsTextFile at WordCount.scala:25, took 0.728214 s
+2019-02-24 16:23:06,532   INFO --- [main]  cn.alan.spark.WordCount$(line:27) : complete!
+2019-02-24 16:23:06,539   INFO --- [main]  org.spark_project.jetty.server.ServerConnector(line:306) : Stopped Spark@3f6db3fb{HTTP/1.1}{0.0.0.0:4040}
+2019-02-24 16:23:06,541   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@7c1e2a2d{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,542   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@2a5b3fee{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,542   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@ec2cc4{/api,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,542   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4097cac{/,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,543   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@ccb4b1b{/static,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,543   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4c2cc639{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,543   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@7f6f61c8{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,543   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@6f2cfcc2{/executors/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,543   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@1c3b9394{/executors,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,544   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@3668d4{/environment/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,544   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@61ce23ac{/environment,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,544   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4566d049{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,544   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@3cc41abc{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,544   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@c2db68f{/storage/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,545   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@c35172e{/storage,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,545   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@1b2c4efb{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,545   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4bff64c2{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,545   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4218500f{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,545   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@5829e4f4{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,546   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@708400f6{/stages/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,546   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@4cf8b2dc{/stages,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,546   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@5c08c46a{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,546   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@5cbe877d{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,547   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@681a8b4e{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,547   INFO --- [main]  org.spark_project.jetty.server.handler.ContextHandler(line:865) : Stopped o.s.j.s.ServletContextHandler@7e8dcdaa{/jobs,null,UNAVAILABLE,@Spark}
+2019-02-24 16:23:06,549   INFO --- [main]  org.apache.spark.ui.SparkUI(line:54) : Stopped Spark web UI at http://192.168.154.1:4040
+2019-02-24 16:23:06,558   INFO --- [dispatcher-event-loop-6]  org.apache.spark.MapOutputTrackerMasterEndpoint(line:54) : MapOutputTrackerMasterEndpoint stopped!
+2019-02-24 16:23:06,614   INFO --- [main]  org.apache.spark.storage.memory.MemoryStore(line:54) : MemoryStore cleared
+2019-02-24 16:23:06,614   INFO --- [main]  org.apache.spark.storage.BlockManager(line:54) : BlockManager stopped
+2019-02-24 16:23:06,619   INFO --- [main]  org.apache.spark.storage.BlockManagerMaster(line:54) : BlockManagerMaster stopped
+2019-02-24 16:23:06,620   INFO --- [dispatcher-event-loop-3]  org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint(line:54) : OutputCommitCoordinator stopped!
+2019-02-24 16:23:06,625   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Successfully stopped SparkContext
+2019-02-24 16:23:06,627   INFO --- [Thread-1]  org.apache.spark.util.ShutdownHookManager(line:54) : Shutdown hook called
+2019-02-24 16:23:06,627   INFO --- [Thread-1]  org.apache.spark.util.ShutdownHookManager(line:54) : Deleting directory C:\Users\ronggh\AppData\Local\Temp\spark-72a01de9-d8d7-4bcb-8fac-4689a811f210
