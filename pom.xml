@@ -9,21 +9,16 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>sparkcore_wordcount</module>
-        <module>sparksql_helloworld</module>
         <module>sparkstreaming_helloworld</module>
-        <module>sparkcore_partitioner</module>
-        <module>sparkcore_accumulator</module>
-        <module>sparksql_unsafeMyAverage</module>
-        <module>sparksql_safeMyAverage</module>
-        <module>sparksqlhive</module>
         <module>sparkstreaming_customerReceiver</module>
         <module>sparkstreaming_queueRdd</module>
         <module>sparkstreaming_kafka</module>
         <module>sparkstreaming_statefulWordCount</module>
         <module>sparkstreaming_windowWordCount</module>
         <module>sparkgraphx_helloworld</module>
-        <module>sparkmllib_fpgrowth</module>
+        <module>sparkmllib_test</module>
+        <module>sparkcore_test</module>
+        <module>sparksql_test</module>
     </modules>
 
     <properties>

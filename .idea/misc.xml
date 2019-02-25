@@ -7,6 +7,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/sparkcore_accumulator/pom.xml" />
+        <option value="$PROJECT_DIR$/sparkcore_partitioner/pom.xml" />
+        <option value="$PROJECT_DIR$/sparkcore_wordcount/pom.xml" />
+        <option value="$PROJECT_DIR$/sparkmllib_fpgrowth/pom.xml" />
+        <option value="$PROJECT_DIR$/sparksql_helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/sparksql_safeMyAverage/pom.xml" />
+        <option value="$PROJECT_DIR$/sparksql_unsafeMyAverage/pom.xml" />
+        <option value="$PROJECT_DIR$/sparksqlhive/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out_data" />
