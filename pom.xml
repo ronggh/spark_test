@@ -9,7 +9,6 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>sparkstreaming_helloworld</module>
         <module>sparkstreaming_customerReceiver</module>
         <module>sparkstreaming_queueRdd</module>
         <module>sparkstreaming_kafka</module>
@@ -19,6 +18,7 @@
         <module>sparkmllib_test</module>
         <module>sparkcore_test</module>
         <module>sparksql_test</module>
+        <module>sparkstreaming_test</module>
     </modules>
 
     <properties>

@@ -4,9 +4,6 @@ import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 
-/**
-  * Created by wuyufei on 06/09/2017.
-  */
 object WorldCount {
 
   def main(args: Array[String]) {
@@ -20,7 +17,7 @@ object WorldCount {
     }
 
 
-    val conf = new SparkConf().setMaster("local[2]").setAppName("NetworkWordCount")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("NetworkWordCount")
     val ssc = new StreamingContext(conf, Seconds(3))
     ssc.checkpoint(".")
 

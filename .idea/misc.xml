@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/sparksql_safeMyAverage/pom.xml" />
         <option value="$PROJECT_DIR$/sparksql_unsafeMyAverage/pom.xml" />
         <option value="$PROJECT_DIR$/sparksqlhive/pom.xml" />
+        <option value="$PROJECT_DIR$/sparkstreaming_helloworld/pom.xml" />
       </set>
     </option>
   </component>
