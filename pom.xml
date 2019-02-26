@@ -9,12 +9,16 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>sparkstreaming_kafka</module>
-        <module>sparkgraphx_helloworld</module>
-        <module>sparkmllib_test</module>
         <module>sparkcore_test</module>
         <module>sparksql_test</module>
+
         <module>sparkstreaming_test</module>
+        <module>sparkstreaming_kafka</module>
+
+        <module>sparkgraphx_test</module>
+        <module>sparkmllib_test</module>
+
+
     </modules>
 
     <properties>

@@ -3,9 +3,6 @@ package word_count
 import org.slf4j.LoggerFactory
 import org.apache.spark.{SparkConf, SparkContext}
 
-/**
-  * Spark Word Count
-  */
 object WordCount {
 
   val logger = LoggerFactory.getLogger(WordCount.getClass)

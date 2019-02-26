@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sparkcore_test" />
-        <module name="sparkgraphx_helloworld" />
+        <module name="sparkgraphx_test" />
         <module name="sparkmllib_test" />
         <module name="sparksql_test" />
         <module name="sparksqlhive" />
@@ -20,6 +20,7 @@
       <module name="sparkcore_accumulator" target="1.8" />
       <module name="sparkcore_partitioner" target="1.8" />
       <module name="sparkcore_wordcount" target="1.8" />
+      <module name="sparkgraphx_helloworld" target="1.8" />
       <module name="sparkmllib_fpgrowth" target="1.8" />
       <module name="sparksql-hive" target="1.8" />
       <module name="sparksql_helloworld" target="1.8" />

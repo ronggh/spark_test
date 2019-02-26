@@ -2,9 +2,7 @@ package partitioner
 
 import org.apache.spark.{Partitioner, SparkConf, SparkContext}
 
-/**
-  *
-  */
+
 class CustomerPartitioner(numParts: Int) extends Partitioner {
 
   //覆盖分区数

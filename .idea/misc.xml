@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/sparkcore_accumulator/pom.xml" />
         <option value="$PROJECT_DIR$/sparkcore_partitioner/pom.xml" />
         <option value="$PROJECT_DIR$/sparkcore_wordcount/pom.xml" />
+        <option value="$PROJECT_DIR$/sparkgraphx_helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/sparkmllib_fpgrowth/pom.xml" />
         <option value="$PROJECT_DIR$/sparksql_helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/sparksql_safeMyAverage/pom.xml" />
