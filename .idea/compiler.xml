@@ -11,12 +11,8 @@
         <module name="sparkmllib_test" />
         <module name="sparksql_test" />
         <module name="sparksqlhive" />
-        <module name="sparkstreaming_customerReceiver" />
         <module name="sparkstreaming_kafka" />
-        <module name="sparkstreaming_queueRdd" />
-        <module name="sparkstreaming_statefulWordCount" />
         <module name="sparkstreaming_test" />
-        <module name="sparkstreaming_windowWordCount" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,7 +26,11 @@
       <module name="sparksql_safeMyAverage" target="1.8" />
       <module name="sparksql_unsafeMyAverage" target="1.8" />
       <module name="sparksqlhive" target="1.8" />
+      <module name="sparkstreaming_customerReceiver" target="1.8" />
       <module name="sparkstreaming_helloworld" target="1.8" />
+      <module name="sparkstreaming_queueRdd" target="1.8" />
+      <module name="sparkstreaming_statefulWordCount" target="1.8" />
+      <module name="sparkstreaming_windowWordCount" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

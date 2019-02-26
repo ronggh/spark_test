@@ -1,4 +1,4 @@
-package cn.alan.streaming
+package queuerdd
 
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
@@ -10,7 +10,7 @@ object QueueRdd {
 
   def main(args: Array[String]) {
 
-    val conf = new SparkConf().setMaster("local[2]").setAppName("QueueRdd")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("QueueRdd")
     val ssc = new StreamingContext(conf, Seconds(1))
 
     // Create the queue through which RDDs can be pushed to

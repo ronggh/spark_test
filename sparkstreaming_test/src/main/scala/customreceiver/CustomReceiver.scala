@@ -1,4 +1,4 @@
-package cn.alan.streaming
+package customreceiver
 
 import java.io.{BufferedReader, InputStreamReader}
 import java.net.Socket
@@ -6,11 +6,11 @@ import java.nio.charset.StandardCharsets
 
 import org.apache.spark.SparkConf
 import org.apache.spark.storage.StorageLevel
-import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.streaming.receiver.Receiver
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
-  * Created by wuyufei on 06/09/2017.
+  *
   */
 
 class CustomReceiver (host: String, port: Int) extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2) {
@@ -64,7 +64,7 @@ class CustomReceiver (host: String, port: Int) extends Receiver[String](StorageL
 object CustomReceiver {
   def main(args: Array[String]) {
 
-    val conf = new SparkConf().setMaster("local[2]").setAppName("NetworkWordCount")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("CustomReceiver")
     val ssc = new StreamingContext(conf, Seconds(1))
 
     // Create a DStream that will connect to hostname:port, like localhost:9999

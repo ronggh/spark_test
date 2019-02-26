@@ -6,18 +6,18 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.slf4j.LoggerFactory
 
 /**
-  * Created by wuyufei on 10/09/2017.
+  *
   */
 
 object HelloWorld {
 
-  val logger = LoggerFactory.getLogger(HelloWorld.getClass)
+  //val logger = LoggerFactory.getLogger(HelloWorld.getClass)
 
   def main(args: Array[String]) {
 
 
     //创建SparkConf()并设置App名称
-    val conf = new SparkConf().setMaster("local[3]").setAppName("WC")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("WC")
     //创建SparkContext，该对象是提交spark App的入口
     val sc = new SparkContext(conf)
 
@@ -43,7 +43,6 @@ object HelloWorld {
     println(edgeCount)
 
     sc.stop()
-
 
   }
 

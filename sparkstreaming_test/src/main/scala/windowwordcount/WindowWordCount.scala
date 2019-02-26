@@ -1,10 +1,10 @@
-package cn.alan.streaming
+package windowwordcount
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 
-object WorldCount {
+object WindowWordCount {
 
   def main(args: Array[String]) {
 
@@ -17,7 +17,7 @@ object WorldCount {
     }
 
 
-    val conf = new SparkConf().setMaster("local[*]").setAppName("NetworkWordCount")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("WindowWordCount")
     val ssc = new StreamingContext(conf, Seconds(3))
     ssc.checkpoint(".")
 

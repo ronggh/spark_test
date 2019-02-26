@@ -9,11 +9,7 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>sparkstreaming_customerReceiver</module>
-        <module>sparkstreaming_queueRdd</module>
         <module>sparkstreaming_kafka</module>
-        <module>sparkstreaming_statefulWordCount</module>
-        <module>sparkstreaming_windowWordCount</module>
         <module>sparkgraphx_helloworld</module>
         <module>sparkmllib_test</module>
         <module>sparkcore_test</module>

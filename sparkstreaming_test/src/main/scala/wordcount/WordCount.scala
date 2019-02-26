@@ -4,7 +4,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 
-object WorldCount {
+object WordCount {
   def main(args: Array[String]) {
 
     val conf = new SparkConf().setMaster("local[*]").setAppName("NetworkWordCount")
